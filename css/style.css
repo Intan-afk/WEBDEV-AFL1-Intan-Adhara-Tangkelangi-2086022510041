@@ -1,0 +1,102 @@
+* { box-sizing: border-box; }
+body { 
+    margin: 0; 
+    padding: 20px 0; 
+    background: #eef0f3; 
+    font-family: Arial, Helvetica, sans-serif; 
+    color: #111; }
+.container { 
+    width: 100%; 
+    max-width: 450px; 
+    margin: 0 auto; 
+    background: #fff; 
+    border-radius: 4px; 
+    box-shadow: 0 1px 4px rgba(0,0,0,.15); 
+    overflow: hidden; }
+.navbar { 
+    background: #bee3f8; 
+    padding: 16px 22px; 
+    font-weight: bold; 
+    font-size: 15px; }
+.navbar a { 
+    color: #111; text-decoration: none; }
+.navbar span { margin: 0 8px; font-weight: normal; }
+.content { padding: 14px; }
+h3 { text-align: center; font-size: 16px; margin: 10px 0 12px; }
+.blue-title { 
+    text-align: center; 
+    color: #3b4cae; 
+    font-size: 24px; margin: 8px 0 14px; }
+
+table { 
+    width: 100%; 
+    border-collapse: collapse; }
+table.dark { 
+    background: #212529; 
+    color: #fff; 
+    font-size: 13px; }
+table.dark th, table.dark td { 
+    padding: 9px 6px; 
+    text-align: center; 
+    border-bottom: 1px solid #343a40; }
+table.dark th { font-size: 11px; }
+.link { color: #6ea8fe; 
+    font-weight: bold; 
+    text-decoration: none; }
+.scroll { overflow-x: auto; }
+
+table.light { 
+    font-size: 15px; 
+    border: 1px solid #ccc; }
+table.light th { 
+    background: #90caf9; 
+    text-align: left; 
+    padding: 9px 7px; }
+table.light td { 
+    padding: 11px 11px; 
+    border-top: 1px solid #ccc; }
+table.light td:first-child { 
+    border-right: 1px solid #ccc; }
+table.light tbody tr:nth-child(even) { 
+    background: #f8f8f8; }
+
+.stack label { 
+    display: block; 
+    font-size: 14px; 
+    margin: 12px 0 6px; }
+.stack input { 
+    width: 100%; 
+    padding: 10px; 
+    border: 1px solid #ddd; 
+    border-radius: 3px; 
+    font-size: 14px; }
+.btn-blue { 
+    display: block; 
+    margin: 14px auto 4px; 
+    background: #0d6efd; 
+    color: #fff; 
+    border: 0; 
+    border-radius: 4px; 
+    padding: 9px 20px; 
+    font-size: 14px; 
+    cursor: pointer; }
+
+.relform { text-align: center; margin-top: 32px; }
+.formtable { width: auto; margin: 0 auto; }
+.formtable td { padding: 3px 5px; font-size: 14px; }
+.formtable select { 
+    width: 208px; 
+    padding: 9px 10px; 
+    border: 1px solid #999; 
+    font-size: 15px; 
+    background: #fff; }
+.btn-save { 
+    margin-top: 8px; 
+    background: #64b5f6; 
+    border: 2px solid #4a90c2; 
+    border-radius: 4px; 
+    width: 130px; 
+    height: 44px; 
+    font-weight: bold; 
+    letter-spacing: 1px; 
+    cursor: pointer; }
